@@ -18,7 +18,7 @@
 ## Deployed Application 
 
 [Book-Search](https://agile-escarpment-68534.herokuapp.com/) <br/>
-![Alt text]( "Title")
+![Alt text](preview.png/?raw=true "Title")
 
 
 ## User Story 
