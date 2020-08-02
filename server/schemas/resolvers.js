@@ -6,6 +6,8 @@ const { signToken } = require('../utils/auth');
 const resolvers = {
 
     Query: {
+
+        //get a user by username
         me: async (parent, args, context) => {
 
             if(context.user) {
@@ -19,12 +21,6 @@ const resolvers = {
             throw new AuthenticationError('Not logged in')
 
         },
-
-        // me: async (parent, { username }) => {
-        //     return User.findOne({ username })
-        //     .select('-__v -password')
-
-        // }
 
     },
 
